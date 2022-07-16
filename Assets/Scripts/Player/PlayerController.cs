@@ -5,14 +5,11 @@ using Managers;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] InputManager myInputs;
+    public InputManager myInputs;
 
     private Rigidbody2D rig;
 
     private Vector2 movement;
-    private Vector2 currentMovement;
-    private Vector2 smoothMovement;
-    private float speed = 1f;
 
     public float speedPlayer;
 
