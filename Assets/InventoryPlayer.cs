@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class InventoryPlayer : MonoBehaviour
 {
-    [SerializeField] private Inventory inventory;
-    [SerializeField] private DisplayInventory displayInventory;
-    // Start is called before the first frame update
-    void Start()
-    {
-        displayInventory.inventory = inventory;
-    }
+    [SerializeField] private Inventory inventoryPlayer;
 
-    private void Update()
+    public void UseItem()
     {
-       
+        Debug.Log("usou item");
     }
 }

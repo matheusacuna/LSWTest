@@ -4,29 +4,41 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+
+public enum Character {Player, NPC,};
 public class DisplayInventory : MonoBehaviour
 {
+    public Character character;
     public Inventory inventory;
     public GameObject itemDefault;
     public Transform grid;
 
     void Start()
     {
-
        CreateDisplay();
-    }
-
-    void Update()
-    {
-
     }
 
     private void CreateDisplay()
     {
-        for (int i = 0; i < inventory.itens.Count; i++)
+        if(character == Character.NPC)
         {
-            var obj = Instantiate(itemDefault, grid);
-            obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+            for (int i = 0; i < inventory.itens.Count; i++)
+            {
+                var obj = Instantiate(itemDefault, grid);
+                obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+                obj.transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
+            }
+        } 
+
+        if(character == Character.Player)
+        {
+            for (int i = 0; i < inventory.itens.Count; i++)
+            {
+                var obj = Instantiate(itemDefault, grid);
+                obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+                obj.transform.GetChild(1).GetComponent<TextMeshProUGUI>().enabled = false;
+                //obj.transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
+            }
         }
     }
 }
