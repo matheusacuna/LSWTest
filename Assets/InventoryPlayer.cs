@@ -5,9 +5,10 @@ using UnityEngine;
 public class InventoryPlayer : MonoBehaviour
 {
     [SerializeField] private Inventory inventoryPlayer;
+    [SerializeField] private PlayerController player;
 
     public void UseItem()
     {
-        Debug.Log("usou item");
+        player.GetComponent<SpriteRenderer>().sprite = ShoppingManager.instance.itemSelected.sprite;
     }
 }

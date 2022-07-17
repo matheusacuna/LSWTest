@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: InventoryNPC
   m_EditorClassIdentifier: 
   nameInventory: InventoryNPC
-  itens: []
+  itens:
+  - {fileID: 11400000, guid: 69883da90aca2334d9dd811f84c2c046, type: 2}

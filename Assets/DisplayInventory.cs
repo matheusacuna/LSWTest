@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using System.Linq;
 using UnityEngine.UI;
 
 
@@ -13,32 +14,40 @@ public class DisplayInventory : MonoBehaviour
     public GameObject itemDefault;
     public Transform grid;
 
-    void Start()
+
+    private void OnEnable()
     {
-       CreateDisplay();
+        CreateDisplay();
     }
 
-    private void CreateDisplay()
+    public void CreateDisplay()
     {
-        if(character == Character.NPC)
+        if(grid.childCount <= 0)
         {
-            for (int i = 0; i < inventory.itens.Count; i++)
+            if(character == Character.NPC)
             {
-                var obj = Instantiate(itemDefault, grid);
-                obj.GetComponent<ValuesItem>().item = inventory.itens[i];
-                obj.transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
-            }
-        } 
+                for (int i = 0; i < inventory.itens.Count; i++)
+                {
+                    var obj = Instantiate(itemDefault, grid);
+                    obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+                    obj.transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
+                }
+            } 
 
-        if(character == Character.Player)
-        {
-            for (int i = 0; i < inventory.itens.Count; i++)
+            if(character == Character.Player)
             {
-                var obj = Instantiate(itemDefault, grid);
-                obj.GetComponent<ValuesItem>().item = inventory.itens[i];
-                obj.transform.GetChild(1).GetComponent<TextMeshProUGUI>().enabled = false;
-                //obj.transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
-            }
+                for (int i = 0; i < inventory.itens.Count; i++)
+                {
+                    var obj = Instantiate(itemDefault, grid);
+                    obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+                    obj.transform.GetChild(1).GetComponent<TextMeshProUGUI>().enabled = false;
+                    obj.transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
+                }
+            }    
+        }
+        else
+        {
+            Debug.Log("nao pode instanciar");
         }
     }
 }

@@ -8,7 +8,7 @@ public class InteractionManager : MonoBehaviour
     bool isTouchNPC;
     [SerializeField] private GameObject dialogue;
     [SerializeField] private InputManager myInput;
-    [SerializeField] private GameObject displayInventory;
+    //[SerializeField] private GameObject displayInventory;
 
     private void Update()
     {
@@ -33,6 +33,6 @@ public class InteractionManager : MonoBehaviour
     public void OpenInventory()
     {
         //displayInventory.GetComponent<DisplayInventory>().inventory = 
-        displayInventory.SetActive(true);
+        //displayInventory.SetActive(true);
     }
 }

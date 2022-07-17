@@ -7,9 +7,15 @@ public class ShoppingManager : MonoBehaviour
     [SerializeField] CoinManager coinManager;
     [SerializeField] Inventory playerInventory;
     [SerializeField] Inventory merchantInventory;
+    [SerializeField] PlayerController player;
 
-    private Item itemSelected;
-    private GameObject objectSelected;
+    [Header("Buttons")]
+    [SerializeField] GameObject buttonBuyItem;
+    [SerializeField] GameObject buttonSellItem;
+
+    [HideInInspector] public Item itemSelected;
+    [HideInInspector] public GameObject objectSelected;
+
 
     public static ShoppingManager instance;
     private bool selected;
@@ -24,15 +30,18 @@ public class ShoppingManager : MonoBehaviour
         selected = true;
         itemSelected = item;
         objectSelected = obj;
+
+        buttonBuyItem.SetActive(true);
+        buttonSellItem.SetActive(true);
     }
 
     public void BuyItem()
     {
         if(selected)
         {
-            if(itemSelected.price <= coinManager.amountCoin)
+            if(itemSelected.purchasePrice <= coinManager.amountCoin)
             {
-                coinManager.DecrementCoin(itemSelected.price);
+                coinManager.DecrementCoin(itemSelected.purchasePrice);
                 playerInventory.itens.Add(itemSelected);
                 merchantInventory.itens.Remove(itemSelected);
                 Destroy(objectSelected);
@@ -43,6 +52,18 @@ public class ShoppingManager : MonoBehaviour
 
     public void SellItem()
     {
-        Debug.Log("vendeu");
+        if (selected)
+        {          
+           coinManager.IncrementCoin(itemSelected.resalePrice);
+           playerInventory.itens.Remove(itemSelected);
+           merchantInventory.itens.Add(itemSelected);
+           Destroy(objectSelected); 
+        }
+        selected = false;
+    }
+
+    public void UseItem()
+    {
+        player.GetComponent<SpriteRenderer>().sprite = itemSelected.sprite;
     }
 }

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: SkinCapsule
   m_EditorClassIdentifier: 
   nameItem: SkinRed
-  price: 2
+  purchasePrice: 2
+  resalePrice: 1
   sprite: {fileID: -9095717837082945937, guid: 42f94a4c6bf5c6840abf09b3e961d8fc, type: 3}
+  icon: {fileID: -9095717837082945937, guid: 42f94a4c6bf5c6840abf09b3e961d8fc, type: 3}

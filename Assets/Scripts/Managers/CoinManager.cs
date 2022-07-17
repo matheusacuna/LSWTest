@@ -10,4 +10,9 @@ public class CoinManager : MonoBehaviour
     {
         amountCoin -= value;
     }
+
+    public void IncrementCoin(int value)
+    {
+        amountCoin += value;
+    }
 }
