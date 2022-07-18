@@ -1,0 +1,888 @@
+fileFormatVersion: 2
+guid: fa9feab92050969418a843dde62130bd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2247819720301518158
+    second: FiliCharacters_0
+  - first:
+      213: 5938659390375692292
+    second: FiliCharacters_1
+  - first:
+      213: 7787888646986796203
+    second: FiliCharacters_2
+  - first:
+      213: 4850577579776471872
+    second: FiliCharacters_3
+  - first:
+      213: 8054144479878492888
+    second: FiliCharacters_4
+  - first:
+      213: -8530599824756186232
+    second: FiliCharacters_5
+  - first:
+      213: 1527615929120865138
+    second: FiliCharacters_6
+  - first:
+      213: -6432182335486987045
+    second: FiliCharacters_7
+  - first:
+      213: -4265395409274141272
+    second: FiliCharacters_8
+  - first:
+      213: -6012755276297627602
+    second: FiliCharacters_9
+  - first:
+      213: 6519326468773681777
+    second: FiliCharacters_10
+  - first:
+      213: 8675371143330561552
+    second: FiliCharacters_11
+  - first:
+      213: -3704262470542923860
+    second: FiliCharacters_12
+  - first:
+      213: -5251292707232431202
+    second: FiliCharacters_13
+  - first:
+      213: 2233759592942191832
+    second: FiliCharacters_14
+  - first:
+      213: -6036536209740102760
+    second: FiliCharacters_15
+  - first:
+      213: 6313854174347895987
+    second: FiliCharacters_16
+  - first:
+      213: 1330158606509254502
+    second: FiliCharacters_17
+  - first:
+      213: 3437714370350845601
+    second: FiliCharacters_18
+  - first:
+      213: -9139360442527704633
+    second: FiliCharacters_19
+  - first:
+      213: 2142783380995489
+    second: FiliCharacters_20
+  - first:
+      213: 7222592615318834756
+    second: FiliCharacters_21
+  - first:
+      213: 4589145382646822582
+    second: FiliCharacters_22
+  - first:
+      213: 1801547948309545225
+    second: FiliCharacters_23
+  - first:
+      213: -7994467768162849651
+    second: FiliCharacters_24
+  - first:
+      213: -729577500103166111
+    second: FiliCharacters_25
+  - first:
+      213: -2660807835655075604
+    second: FiliCharacters_26
+  - first:
+      213: 6253365566980376923
+    second: FiliCharacters_27
+  - first:
+      213: -7027095219619563065
+    second: FiliCharacters_28
+  - first:
+      213: -8200835138186107294
+    second: FiliCharacters_29
+  - first:
+      213: -8444769736387225841
+    second: FiliCharacters_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FiliCharacters_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 850
+        width: 49
+        height: 140
+      alignment: 9
+      pivot: {x: 0.486937, y: 0.9549203}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b26f44bfd32ec0e0800000000000000
+      internalID: -2247819720301518158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 856
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408816d404b5a6250800000000000000
+      internalID: 5938659390375692292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_2
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 853
+        width: 43
+        height: 132
+      alignment: 9
+      pivot: {x: 0.48914638, y: 0.938422}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac02f16673241c60800000000000000
+      internalID: 7787888646986796203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_3
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 852
+        width: 50
+        height: 140
+      alignment: 9
+      pivot: {x: 0.41599303, y: 0.943372}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043fc0efb96b05340800000000000000
+      internalID: 4850577579776471872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 857
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2b4d45bb116cf60800000000000000
+      internalID: 8054144479878492888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_5
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 852
+        width: 43
+        height: 131
+      alignment: 9
+      pivot: {x: 0.5108536, y: 0.93464345}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883e56c08a83d9980800000000000000
+      internalID: -8530599824756186232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_6
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 849
+        width: 49
+        height: 140
+      alignment: 9
+      pivot: {x: 0.34760642, y: 0.93337095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27b3a78089e233510800000000000000
+      internalID: 1527615929120865138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_7
+      rect:
+        serializedVersion: 2
+        x: 601
+        y: 862
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd471cabe3c4cb6a0800000000000000
+      internalID: -6432182335486987045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_8
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 854
+        width: 43
+        height: 131
+      alignment: 9
+      pivot: {x: 0.6302448, y: 0.93108106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a502ab69754ec4c0800000000000000
+      internalID: -4265395409274141272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_9
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 721
+        width: 58
+        height: 96
+      alignment: 9
+      pivot: {x: 0.49999988, y: 0.8970051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e289ce2eee66e8ca0800000000000000
+      internalID: -6012755276297627602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 721
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8970051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17a9e0ae1ec497a50800000000000000
+      internalID: 6519326468773681777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_11
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 721
+        width: 58
+        height: 96
+      alignment: 9
+      pivot: {x: 0.48826653, y: 0.9040947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e74ec371c156870800000000000000
+      internalID: 8675371143330561552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_12
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 721
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5115362, y: 0.88991547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca76a78b8e0d79cc0800000000000000
+      internalID: -3704262470542923860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_13
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 722
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5230713, y: 0.8970051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93cfc5fa19af17b0800000000000000
+      internalID: -5251292707232431202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_14
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 721
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5230713, y: 0.8970051}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4c0fac388effe10800000000000000
+      internalID: 2233759592942191832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_15
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 721
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.4884664, y: 0.88991547}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89388a8dc4ae93ca0800000000000000
+      internalID: -6036536209740102760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_16
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 721
+        width: 59
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5230713, y: 0.9040947}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4af995be05f9750800000000000000
+      internalID: 6313854174347895987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_17
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 667
+        width: 49
+        height: 140
+      alignment: 9
+      pivot: {x: 0.36665562, y: 0.93337095}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 667a9e3843ca57210800000000000000
+      internalID: 1330158606509254502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_18
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 681
+        width: 122
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ae840c810735bf20800000000000000
+      internalID: 3437714370350845601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 673
+        width: 43
+        height: 131
+      alignment: 9
+      pivot: {x: 0.6302448, y: 0.9275182}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c911e499187a2180800000000000000
+      internalID: -9139360442527704633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_20
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 652
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad3142a9dc970000800000000000000
+      internalID: 2142783380995489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_21
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 652
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e407977bdcb3460800000000000000
+      internalID: 7222592615318834756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_22
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 652
+        width: 44
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6b943496befaf30800000000000000
+      internalID: 4589145382646822582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_23
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 652
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90103d06052600910800000000000000
+      internalID: 1801547948309545225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_24
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 652
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8ce75edbe1fd0190800000000000000
+      internalID: -7994467768162849651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_25
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 652
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167bb3e012500e5f0800000000000000
+      internalID: -729577500103166111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_26
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 652
+        width: 43
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce8043cfe59e21bd0800000000000000
+      internalID: -2660807835655075604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_27
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 652
+        width: 35
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b594686f9da68c650800000000000000
+      internalID: 6253365566980376923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_28
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 332
+        width: 270
+        height: 261
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c9fabff02eba7e90800000000000000
+      internalID: -7027095219619563065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_29
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 275
+        width: 351
+        height: 315
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26620e644e7c03e80800000000000000
+      internalID: -8200835138186107294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FiliCharacters_30
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 281
+        width: 320
+        height: 312
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f079ba4caa62eca80800000000000000
+      internalID: -8444769736387225841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

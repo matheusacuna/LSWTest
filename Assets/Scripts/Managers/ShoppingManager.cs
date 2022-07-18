@@ -57,7 +57,7 @@ public class ShoppingManager : MonoBehaviour
            coinManager.IncrementCoin(itemSelected.resalePrice);
            playerInventory.itens.Remove(itemSelected);
            merchantInventory.itens.Add(itemSelected);
-           Destroy(objectSelected); 
+           Destroy(objectSelected);
         }
         selected = false;
     }

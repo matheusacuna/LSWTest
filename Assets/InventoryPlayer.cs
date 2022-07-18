@@ -6,9 +6,17 @@ public class InventoryPlayer : MonoBehaviour
 {
     [SerializeField] private Inventory inventoryPlayer;
     [SerializeField] private PlayerController player;
+    public EquipsPlayer equipsPlayer;
 
     public void UseItem()
     {
-        player.GetComponent<SpriteRenderer>().sprite = ShoppingManager.instance.itemSelected.sprite;
+        equipsPlayer.bodyParts[0].sprite = ShoppingManager.instance.itemSelected.sprite;
+    }
+
+    [System.Serializable]
+    public class EquipsPlayer
+    {
+        public List<SpriteRenderer> bodyParts = new List<SpriteRenderer>();
+
     }
 }
