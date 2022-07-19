@@ -10,12 +10,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4bc7648d9cfcbb0469586ef042dcbedc, type: 3}
-  m_Name: Hair2
+  m_Name: Shirt3
   m_EditorClassIdentifier: 
-  typeEquips: 0
-  nameItem: Hair2
+  typeEquips: 1
+  nameItem: Shirt1
   purchasePrice: 2
   resalePrice: 1
   sprites:
-  - {fileID: -8200835138186107294, guid: fa9feab92050969418a843dde62130bd, type: 3}
-  icon: {fileID: -8200835138186107294, guid: fa9feab92050969418a843dde62130bd, type: 3}
+  - {fileID: 4850577579776471872, guid: fa9feab92050969418a843dde62130bd, type: 3}
+  - {fileID: 8054144479878492888, guid: fa9feab92050969418a843dde62130bd, type: 3}
+  - {fileID: -8530599824756186232, guid: fa9feab92050969418a843dde62130bd, type: 3}
+  icon: {fileID: 5938659390375692292, guid: fa9feab92050969418a843dde62130bd, type: 3}

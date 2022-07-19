@@ -61,9 +61,4 @@ public class ShoppingManager : MonoBehaviour
         }
         selected = false;
     }
-
-    public void UseItem()
-    {
-        player.GetComponent<SpriteRenderer>().sprite = itemSelected.sprite;
-    }
 }

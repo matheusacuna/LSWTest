@@ -30,9 +30,11 @@ public class InteractionManager : MonoBehaviour
         }
     }
 
-    public void OpenInventory()
+    private void OnTriggerExit2D(Collider2D collision)
     {
-        //displayInventory.GetComponent<DisplayInventory>().inventory = 
-        //displayInventory.SetActive(true);
+        if(collision.gameObject.CompareTag("NPC"))
+        {
+            isTouchNPC = false;
+        }
     }
 }

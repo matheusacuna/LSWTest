@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class ValuesItem : MonoBehaviour
 {
+    public Equips typeEquip;
     public Item item;
     public TextMeshProUGUI price;
     public TextMeshProUGUI nameItem;
@@ -14,6 +15,7 @@ public class ValuesItem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        typeEquip = item.typeEquips;
         price.text = item.purchasePrice.ToString();
         icon.sprite = item.icon;
         //nameItem.text = item.name;

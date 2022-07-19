@@ -60,18 +60,4 @@ public class DisplayInventory : MonoBehaviour
     {
         Debug.Log("");
     }
-
-    //public void VerifyAmountItens()
-    //{
-    //    List<Item> itensInventory = new List<Item>();
-
-    //    for (int i = 0; i < grid.childCount; i++)
-    //    {
-    //        itensInventory.Add(grid.GetChild(i).GetComponent<ValuesItem>().item);
-    //    }
-
-    //    List<Item> newList = inventory.itens.Where(i => !itensInventory.Contains(i)).ToList();
-
-    //    CreateDisplay(newList);
-    //}
 }

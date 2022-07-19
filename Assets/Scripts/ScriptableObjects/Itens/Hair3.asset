@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4bc7648d9cfcbb0469586ef042dcbedc, type: 3}
   m_Name: Hair3
   m_EditorClassIdentifier: 
+  typeEquips: 0
   nameItem: Hair3
   purchasePrice: 2
   resalePrice: 1
-  sprite: {fileID: -8444769736387225841, guid: fa9feab92050969418a843dde62130bd, type: 3}
+  sprites:
+  - {fileID: -8444769736387225841, guid: fa9feab92050969418a843dde62130bd, type: 3}
   icon: {fileID: -8444769736387225841, guid: fa9feab92050969418a843dde62130bd, type: 3}

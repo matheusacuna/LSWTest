@@ -6,17 +6,38 @@ public class InventoryPlayer : MonoBehaviour
 {
     [SerializeField] private Inventory inventoryPlayer;
     [SerializeField] private PlayerController player;
+
     public EquipsPlayer equipsPlayer;
 
     public void UseItem()
     {
-        equipsPlayer.bodyParts[0].sprite = ShoppingManager.instance.itemSelected.sprite;
+        switch(ShoppingManager.instance.itemSelected.typeEquips)
+        {
+            case Equips.Hair:
+                GetEquipsParts(equipsPlayer.hair);
+                break;
+            case Equips.Shirt:
+                GetEquipsParts(equipsPlayer.Shirt);
+                break;
+            case Equips.Pants:
+                GetEquipsParts(equipsPlayer.pants);
+                break;
+        }
+    }
+
+    private void GetEquipsParts(SpriteRenderer[] spriteReference)
+    {
+        for (int i = 0; i < spriteReference.Length; i++)
+        {
+            spriteReference[i].sprite = ShoppingManager.instance.itemSelected.sprites[i];
+        }
     }
 
     [System.Serializable]
     public class EquipsPlayer
     {
-        public List<SpriteRenderer> bodyParts = new List<SpriteRenderer>();
-
+        public SpriteRenderer[] hair;
+        public SpriteRenderer[] Shirt;
+        public SpriteRenderer[] pants;
     }
 }
