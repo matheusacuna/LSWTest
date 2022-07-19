@@ -70,13 +70,6 @@ public class PlayerController : MonoBehaviour
 
     private void SetAnimations()
     {
-        if (movement.x > 0 )
-        {
-            anim.SetFloat("walkSpeed", movement.x);
-        }
-        else
-        {
-            anim.SetFloat("walkSpeed", movement.x * -1);
-        }
+        anim.SetFloat("walkSpeed", movement.magnitude);
     }
 }

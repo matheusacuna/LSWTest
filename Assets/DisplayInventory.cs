@@ -29,35 +29,28 @@ public class DisplayInventory : MonoBehaviour
 
     public void CreateDisplay(List<Item> list)
     {
-            if(character == Character.NPC)
+        if (character == Character.NPC)
+        {
+            for (int i = 0; i < list.Count; i++)
             {
-                for (int i = 0; i < list.Count; i++)
-                {
-                    var obj = Instantiate(itemDefault, grid);
-                    obj.name = list[i].nameItem;
-                    obj.GetComponent<ValuesItem>().item = inventory.itens[i];
-                    obj.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().enabled = true;
-                    obj.transform.GetChild(0).GetChild(2).gameObject.SetActive(true);
-                    obj.transform.GetChild(0).transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
-                }
-            } 
+                var obj = Instantiate(itemDefault, grid);
+                obj.name = list[i].nameItem;
+                obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+                obj.transform.GetChild(0).transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
+            }
+        }
 
-            if(character == Character.Player)
+        if (character == Character.Player)
+        {
+            for (int i = 0; i < list.Count; i++)
             {
-                for (int i = 0; i < list.Count; i++)
-                {
-                    var obj = Instantiate(itemDefault, grid);
-                    obj.name = list[i].nameItem;
-                    obj.GetComponent<ValuesItem>().item = inventory.itens[i];
-                    obj.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().enabled = false;
-                    obj.transform.GetChild(0).GetChild(2).gameObject.SetActive(false);
-                    obj.transform.GetChild(0).transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
-                }
-            }    
-    }
-
-    public void VisualizeEquips()
-    {
-        Debug.Log("");
+                var obj = Instantiate(itemDefault, grid);
+                obj.name = list[i].nameItem;
+                obj.GetComponent<ValuesItem>().item = inventory.itens[i];
+                obj.transform.GetChild(0).GetChild(1).GetComponent<TextMeshProUGUI>().enabled = false;
+                obj.transform.GetChild(0).GetChild(2).gameObject.SetActive(false);
+                obj.transform.GetChild(0).transform.Find("Icon").GetComponent<Button>().onClick.AddListener(() => ShoppingManager.instance.GetItem(obj.GetComponent<ValuesItem>().item, obj));
+            }
+        }
     }
 }
